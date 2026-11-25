@@ -1,0 +1,28 @@
+.todo__cont {
+  width: 750px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task {
+  display: flex;
+  align-items: center;
+  width: 750px;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+}
+img {
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+}
+
+.task__checkbox {
+  width: 20px;
+  height: 20px;
+}
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
